@@ -13,7 +13,7 @@ But let's say that a KVM doesn't work for you or you just want to use it nativel
 
 - Getting sunst0rm working
  
-  - [Dependencies](tutorial/installation/DEPENDENCIES.md): This will show you how to get the basic dependencies working
+  - [Dependencies](tutorial/installation/PREREQUISITES.md): This will show you how to get the basic dependencies working
   - Restoring: This will show you how to restore your device
   - Booting
  
