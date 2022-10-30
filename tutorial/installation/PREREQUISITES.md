@@ -154,6 +154,8 @@ Next, move it to `/usr/local/bin` and run `sudo chmod +x /usr/local/bin/asr64_pa
 
 For this, run `git clone --recursive https://github.com/planetbeing/libdmg-hfsplus` and `cd` into the generated folder. Next run `cmake .`, `cd ./hfs`, then `make`. When it's done compiling, move it to `/usr/local/bin` and `sudo chmod +x /usr/local/bin/hfsplus`. 
 
+If you have issues compiling hfsplus, I left a precompiled binary in the guide.
+
 ## Python dependencies 
 
 You're almost done! Now, go to the `sunst0rm` directory, and run `pip3 install -r requirements.txt`. If pip3 is missing, just run `sudo apt install python3-pip` or the equivlent for your distro.
