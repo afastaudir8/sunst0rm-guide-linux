@@ -44,7 +44,7 @@ If it worked, you should be able to run futurerestore just by typing `futurerest
 
 ## iBoot64Patcher
 
-iBoot64Patcherhas to be downloaded similarly to how to download futurerestore
+iBoot64Patcher has to be downloaded similarly to futurerestore
 
 A precompiled build can be found [here](https://github.com/Cryptiiiic/iBoot64Patcher/actions)
 
@@ -55,3 +55,28 @@ Once it's unzipped, run `mv ./iBoot64Patcher /usr/local/bin`.
 Then run `chmod +x /usr/local/bin/iBoot64Patcher`.
 
 Now, try running it by typing `iBoot64Patcher` in the terminal. iT'S CASE SENSITIVE.
+
+## Kernel64Patcher
+At this point, you have to download sunst0rm using `git clone --recursive https://github.com/MCApollo/sunst0rm` You need to do this now to patch Kernel64Patcher and asr64_patcher later
+
+Next, download Kernel64Patcher by running 
+```
+git clone https://github.com/iSuns9/Kernel64Patcher
+cd ./Kernel64Patcher
+```
+
+But don't compile it *just* yet. You have to patch it first! 
+
+You just need to run `patch -p1 </path/to/sunst0rm/linuxpatches/Kernel64Patcher.patch`
+
+Then compile Kernel64Patcher by running `gcc ./Kernel64Patcher.c -o Kernel64Patcher -Iinclude-linux/`
+
+If it compiled correctly, run `./Kernel64Patcher`. It should display this 
+
+![image](https://user-images.githubusercontent.com/45905959/198894457-70f9ab7b-c990-4f25-894e-a57a34ca9d29.png)
+
+If it worked, you should be able to run `mv ./Kernel64Patcher /usr/local/bin`
+
+And then `sudo chmod +x /usr/local/bin/Kernel64Patcher`
+
+You should able to run it with just `Kernel64Patcher`
