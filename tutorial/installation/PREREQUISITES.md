@@ -41,3 +41,17 @@ Then run `sudo chmod +x /usr/local/bin/futurerestore`
 If it worked, you should be able to run futurerestore just by typing `futurerestore`. It should display this
 
 ![image](https://user-images.githubusercontent.com/45905959/198892940-baf9a217-1c89-4723-b03d-23f7a30d18a7.png)
+
+## iBoot64Patcher
+
+iBoot64Patcherhas to be downloaded similarly to how to download futurerestore
+
+A precompiled build can be found [here](https://github.com/Cryptiiiic/iBoot64Patcher/actions)
+
+Copy the link to the latest artifact and paste it into https://nightly.link/ and download the `RELEASE` build of iBoot64Patcher
+
+Once it's unzipped, run `mv ./iBoot64Patcher /usr/local/bin`.
+
+Then run `chmod +x /usr/local/bin/iBoot64Patcher`.
+
+Now, try running it by typing `iBoot64Patcher` in the terminal. iT'S CASE SENSITIVE.
