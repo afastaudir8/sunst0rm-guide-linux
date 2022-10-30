@@ -20,5 +20,6 @@ But let's say that a KVM doesn't work for you or you just want to use it nativel
   
   
   
-  
-  ### This guide is heavily inspired from [Arna13's sunst0rm guide for macOS.](https://github.com/Arna13/sunst0rm-guide)
+ >  **Warning**
+ > I am **not** responsible for any damage you may cause to your device or data. Make sure to backup the data on your iDevice before proceeding with this guide.
+### This guide is heavily inspired from [Arna13's sunst0rm guide for macOS.](https://github.com/Arna13/sunst0rm-guide)
