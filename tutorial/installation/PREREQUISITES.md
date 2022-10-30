@@ -116,3 +116,44 @@ Typing `img4` should give you an output that looks like this.
 
 ![image](https://user-images.githubusercontent.com/45905959/198896258-9a0c37b8-60c5-4fe6-89cf-c8b97594a0fb.png)
 
+## ldid
+
+Download `ldid_linux_x86_64` from [here](https://github.com/ProcursusTeam/ldid/releases/tag/v2.1.5-procursus5)
+
+Once it's downloaded, rename it to simply `ldid` with `mv ./ldid_linux_x86_64 ldid`
+
+Then move it to `/usr/local/bin` and run `sudo chmod +x /usr/local/bin/ldid`
+
+Running `ldid` should show this as the output 
+
+![image](https://user-images.githubusercontent.com/45905959/198896650-40cce314-5975-40d4-910f-aa2d5991a297.png)
+
+## restored_external64_patcher
+
+To get restored_external64_patcher you must run `git clone https://github.com/iSuns9/restored_external64patcher` first, then `cd ./restored_external64patcher`
+
+Next, compile it by running `make`. 
+
+Move it to `/usr/local/bin` and run `sudo chmod +x /usr/local/bin/restored_external64_patcher`
+
+Running `restored_external64_patcher` should give an output that looks like this 
+
+![image](https://user-images.githubusercontent.com/45905959/198896993-2a0db73c-3645-4e92-bcd8-48254ff324e4.png)
+
+## asr64_patcher
+
+asr64_patcher needs to be downloaded with `git clone https://github.com/exploit3dguy/asr64_patcher`. You have to compile it instead of getting the release version since you need to apply some patches.
+
+Once it's done downloading, run `cd ./asr64_patcher`
+Then `patch -p1 </path/to/sunst0rm/linux-patches/asr64_patcher.patch`
+Now, `make` should compile it.
+
+Next, move it to `/usr/local/bin` and run `sudo chmod +x /usr/local/bin/asr64_patcher`
+
+## libdmg-hfsplus
+
+For this, run `git clone --recursive https://github.com/planetbeing/libdmg-hfsplus` and `cd` into the generated folder. Next run `cmake .`, `cd ./hfs`, then `make`. When it's done compiling, move it to `/usr/local/bin` and `sudo chmod +x /usr/local/bin/hfsplus`. 
+
+## Python dependencies 
+
+You're almost done! Now, go to the `sunst0rm` directory, and run `pip3 install -r requirements.txt`. If pip3 is missing, just run `sudo apt install python3-pip` or the equivlent for your distro.
