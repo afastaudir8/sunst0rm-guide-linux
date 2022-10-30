@@ -80,3 +80,39 @@ If it worked, you should be able to run `mv ./Kernel64Patcher /usr/local/bin`
 And then `sudo chmod +x /usr/local/bin/Kernel64Patcher`
 
 You should able to run it with just `Kernel64Patcher`
+
+## img4tool 
+### For img4tool, you'll need to have [libssl1.1](https://packages.ubuntu.com/focal/amd64/libssl1.1/download) installed.
+
+For img4tool, just download [buildroot_ubuntu-latest](https://github.com/tihmstar/img4tool/releases/tag/197) and only extract `/usr/local/bin/img4tool`
+
+Once it's extracted, run `./img4tool`. 
+
+This should be the output:
+
+![image](https://user-images.githubusercontent.com/45905959/198895446-74140d56-22ae-4154-90a3-07cfbabf5e73.png)
+
+If your output, look like this: 
+
+![image](https://user-images.githubusercontent.com/45905959/198895471-408dafa5-32ae-4ed9-b76f-f319361132cc.png)
+
+You need to install libssl1.1
+
+Like the other dependencies, you'll need to run `mv ./img4tool /usr/local/bin`
+
+Then run `sudo chmod +x /usr/local/bin/img4tool`
+
+You should now be able to run it by typing `img4tool`
+
+## img4
+
+Grab the img4 file I left on the top directory of the guide. Compiling img4 from the source may lead to some issues later down the line. 
+
+Once it's downloaded, simply run `mv ./img4 /usr/local/bin`
+
+Then `sudo chmod +x /usr/local/bin/img4`
+
+Typing `img4` should give you an output that looks like this.
+
+![image](https://user-images.githubusercontent.com/45905959/198896258-9a0c37b8-60c5-4fe6-89cf-c8b97594a0fb.png)
+
