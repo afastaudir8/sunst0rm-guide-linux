@@ -5,10 +5,15 @@ There are two ways to use sunst0rm on Linux. The first is using a [KVM](https://
 
 But let's say that a KVM doesn't work for you or you just want to use it natively on Linux. In that case, you can use [MCApollo's fork](https://github.com/MCApollo/sunst0rm) which is what this guide will focus on.
 
+## This guide has only been done on Ubuntu 22.04. Other distros *should* work too, however.
+
 # Table of contents
 
 - Getting sunst0rm working
-  -Dependencies
+ 
+  - Dependencies: This will show you how to get the basic dependencies working
+  - Restoring: This will show you how to restore your device
+  - Booting
  
   
   
