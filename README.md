@@ -6,6 +6,9 @@ There are two ways to use sunst0rm on Linux. The first is using a [KVM](https://
 But let's say that a KVM doesn't work for you or you just want to use it natively on Linux. In that case, you can use [MCApollo's fork](https://github.com/MCApollo/sunst0rm) which is what this guide will focus on.
 
 
+## Issues disabled
+
+Please ask for help in [miniexploit's Discord server](https://discord.gg/h6eqnzue9P). I don't have the time to help fix issues with a script that has been dead for months now. sorry.
 
 ## Notes
 This guide may be a bit confusing. If it doesn't work well for you, use [Arna13's guide using a KVM.](https://github.com/Arna13/sunst0rm-guide/blob/main/docs/misc/LINUX.md)
@@ -13,6 +16,8 @@ This guide may be a bit confusing. If it doesn't work well for you, use [Arna13'
 This **ONLY** works on checkm8 devices (A11 and lower)
 
 A10 devices and up will lose some features (Audio output, vibration, and home button)
+
+While extremely rare, please note that this script can **irreversibly brick your device. Mineek, arna13, afastaudir8, etc. are not responsible for ANY damage done to your devices. You have been warned** 
 
 The iPhone X will have no touch recognition. The iPhone 8 and 8 Plus will work fine but with the aforementioned limitations.
 
